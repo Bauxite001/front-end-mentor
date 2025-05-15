@@ -6,7 +6,7 @@ dist/               # Optional: if you build your project
 build/
 
 # ========== Tailwind CSS ==========
-.tailwind*          # Cache or temporary files
+.tailwindcss*          # Cache or temporary files
 
 # ========== Logs ==========
 *.log               # Error or debug logs

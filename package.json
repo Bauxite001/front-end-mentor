@@ -1,6 +1,11 @@
 {
-  "dependencies": {
-    "@tailwindcss/cli": "^4.1.4",
-    "tailwindcss": "^4.1.4"
-  }
+	"dependencies": {
+		"@tailwindcss/cli": "^4.1.4",
+		"tailwindcss": "^4.1.4"
+	},
+	"scripts": {
+		"build:css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+		"copy:html": "copy index.html dist\\index.html",
+		"build": "npm run build:css && npm run copy:html"
+	}
 }
