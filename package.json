@@ -5,7 +5,7 @@
 	},
 	"scripts": {
 		"build:css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
-		"copy:html": "copy index.html dist\\index.html",
+		"copy:html": "cp index.html dist/index.html",
 		"build": "npm run build:css && npm run copy:html"
 	}
 }
