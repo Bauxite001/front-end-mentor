@@ -1,0 +1,23 @@
+# ========== Node.js ==========
+node_modules/       # Don't upload installed packages
+
+# ========== Build Folders ==========
+dist/               # Optional: if you build your project
+build/
+
+# ========== Tailwind CSS ==========
+.tailwind*          # Cache or temporary files
+
+# ========== Logs ==========
+*.log               # Error or debug logs
+
+# ========== Environment Variables ==========
+.env                # Private config (like API keys)
+
+# ========== OS Generated Files ==========
+.DS_Store           # macOS trash
+Thumbs.db           # Windows trash
+
+# ========== VS Code ==========
+.vscode/            # Your editor settings (not needed in GitHub)
+
